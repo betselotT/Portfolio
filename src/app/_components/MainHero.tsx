@@ -16,9 +16,9 @@ export default function MainHero(){
               </div>
               <div className="mt-5 max-w-3xl">
                 <p className="text-xl text-muted-foreground">
-                    I'm a software engineer with a passion for building web
+                    I&#39;m a software engineer with a passion for building web
                     applications. I specialize in Front-end development and
-                    design. I'm currently looking for new opportunities.
+                    design. I&#39;m currently looking for new opportunities.
                 </p>
               </div>
               <div className="mt-8 gap-3 flex justify-center">
