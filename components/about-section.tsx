@@ -42,10 +42,10 @@ export default function AboutSection() {
               Who I Am
             </h3>
             <p className="text-blue-200 mb-4">
-              I&apos;m a passionate Frontend Web Developer with a keen eye for
-              design and a love for creating seamless user experiences. With a
-              background in computer science and a continuous learning mindset,
-              I strive to stay at the forefront of web technologies.
+              I focus on performance, accessibility, and clean design, ensuring
+              that every project delivers a seamless experience across devices.
+              I strive to build websites that are not only visually appealing
+              but also optimized for speed and usability.
             </p>
             <p className="text-blue-200">
               My journey in web development began 5 years ago, and since then,

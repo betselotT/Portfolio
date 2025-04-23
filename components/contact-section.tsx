@@ -208,7 +208,7 @@ export default function ContactSection() {
 
         <div className="mt-20 text-center">
           <p className="text-blue-300">
-            © {new Date().getFullYear()} John Doe. All rights reserved.
+            © {new Date().getFullYear()} Betselot Tesfa. All rights reserved.
           </p>
         </div>
       </div>

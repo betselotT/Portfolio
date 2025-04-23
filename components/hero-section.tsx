@@ -29,16 +29,17 @@ export default function HeroSection() {
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4">
               <span className="block">Hi, I&apos;m</span>
               <span className="bg-gradient-to-r from-cyan-400 to-blue-400 text-transparent bg-clip-text">
-                John Doe
+                Betselot Tesfa
               </span>
             </h1>
             <h2 className="text-2xl md:text-3xl font-medium text-blue-200 mb-6 tracking-wider">
               Frontend Web Developer
             </h2>
             <p className="text-lg text-blue-100 mb-8 max-w-lg">
-              Crafting immersive digital experiences with modern web
-              technologies. Turning complex problems into elegant, intuitive
-              interfaces.
+              I build responsive, interactive websites using Next.js, React, and
+              other modern web technologies. With a focus on performance and
+              user experience, I create clean and efficient designs that bring
+              ideas to life.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button
@@ -74,7 +75,7 @@ export default function HeroSection() {
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-2 border-blue-400/30 shadow-[0_0_30px_rgba(56,189,248,0.3)]">
               <Image
                 src="/placeholder.svg?height=320&width=320"
-                alt="John Doe"
+                alt="Betselot Tesfa"
                 fill
                 className="object-cover"
                 priority

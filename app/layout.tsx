@@ -7,9 +7,9 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "John Doe | Frontend Web Developer",
+  title: "Betselot Tesfa | Frontend Web Developer",
   description:
-    "Personal portfolio website of John Doe, a frontend web developer specializing in React, Next.js, and modern web technologies.",
+    "Personal portfolio website of Betselot Tesfa, a frontend web developer specializing in React, Next.js, and modern web technologies.",
 };
 
 export default function RootLayout({
