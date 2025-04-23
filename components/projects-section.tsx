@@ -18,49 +18,38 @@ import { Github, ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    title: "E-Commerce Dashboard",
+    title: "Interview Platform",
     description:
-      "A comprehensive dashboard for e-commerce businesses with real-time analytics, inventory management, and sales tracking.",
-    image: "/placeholder.svg?height=400&width=600",
+      "An Interview Platform where users can practice taking interviews using AI.",
+    image: "/robot.png",
     technologies: [
-      "React",
+      "Vapi",
       "Next.js",
       "TypeScript",
       "Tailwind CSS",
-      "Chart.js",
-    ],
-    github: "#",
-    live: "#",
-  },
-  {
-    title: "Task Management App",
-    description:
-      "A collaborative task management application with drag-and-drop functionality, team assignments, and progress tracking.",
-    image: "/placeholder.svg?height=400&width=600",
-    technologies: [
-      "React",
-      "TypeScript",
-      "Tailwind CSS",
-      "Framer Motion",
-      "Supabase",
-    ],
-    github: "#",
-    live: "#",
-  },
-  {
-    title: "Personal Finance Tracker",
-    description:
-      "A financial tracking application that helps users monitor expenses, set budgets, and visualize spending patterns.",
-    image: "/placeholder.svg?height=400&width=600",
-    technologies: [
-      "Next.js",
-      "TypeScript",
-      "Tailwind CSS",
-      "D3.js",
+      "Gemini",
       "Firebase",
     ],
-    github: "#",
-    live: "#",
+    github: "https://github.com/betselotT/Interview-Platform",
+    live: "https://interview-platform-pearl.vercel.app/",
+  },
+  {
+    title: "E-Commerce App",
+    description:
+      "A website that users can browse through a list of items they want to purchase.",
+    image: "/ecommerce.png",
+    technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    github: "https://github.com/betselotT/wannabe-ecommerce",
+    live: "https://wannabe-ecommerce.vercel.app/",
+  },
+  {
+    title: "BLU",
+    description:
+      "A mental health support website that connects therapists with patients.",
+    image: "/blu.png",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
+    github: "https://github.com/betselotT/BLU",
+    live: "https://betselott.github.io/BLU/",
   },
 ];
 

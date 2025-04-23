@@ -9,39 +9,27 @@ import { CalendarDays, Building2, MapPin } from "lucide-react";
 
 const experiences = [
   {
-    title: "Senior Frontend Developer",
-    company: "TechCorp Inc.",
-    location: "San Francisco, CA",
-    period: "2021 - Present",
+    title: "Software Engineering Intern",
+    company: "Escalate",
+    location: "Addis Ababa",
+    period: " 07/2024 – 09/2024",
     responsibilities: [
-      "Led the development of the company's flagship web application using React and Next.js",
-      "Implemented responsive designs and improved performance by 40%",
-      "Mentored junior developers and conducted code reviews",
+      "Designed a responsive landing page and built 5+ front-end pages and features that enhanced user experience",
+      "Integrated API with 10+ endpoints, using RTK Query.",
+      "Reviewed code for quality assurance, ensuring adherence to best practices and high standards",
       "Collaborated with UX/UI designers to create intuitive user interfaces",
     ],
   },
   {
-    title: "Frontend Developer",
-    company: "Digital Solutions",
-    location: "New York, NY",
-    period: "2019 - 2021",
+    title: "Endubis Wallet App",
+    company: "Endubis Solutions",
+    location: "Addis Ababa",
+    period: "2024 - present",
     responsibilities: [
-      "Developed and maintained multiple client websites using modern JavaScript frameworks",
+      "Created a wallet app that gives blockchain services, now used in 10+ African countries",
       "Integrated RESTful APIs and implemented state management solutions",
       "Optimized web applications for maximum speed and scalability",
-      "Participated in agile development processes and sprint planning",
-    ],
-  },
-  {
-    title: "Web Developer Intern",
-    company: "StartUp Innovations",
-    location: "Boston, MA",
-    period: "2018 - 2019",
-    responsibilities: [
-      "Assisted in the development of responsive websites for various clients",
-      "Learned and applied modern web development practices and tools",
-      "Participated in team meetings and contributed to project planning",
-      "Gained hands-on experience with HTML, CSS, and JavaScript",
+      "Led the integration of version control practices among team members which increased our project delivery speed",
     ],
   },
 ];
