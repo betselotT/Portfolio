@@ -18,27 +18,28 @@ import { Github, ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    title: "Interview Platform",
+    title: "BookVerse",
     description:
-      "An Interview Platform where users can practice taking interviews using AI.",
-    image: "/robot.png",
+      "A platform that allows to filter different books coming from Google Books API and also allows to perform CRUD operations on any books of a user's choice after signing up.",
+    image: "/books.png",
     technologies: [
-      "Vapi",
       "Next.js",
-      "TypeScript",
       "Tailwind CSS",
-      "Gemini",
       "Firebase",
+      "Google Books API",
+      "JWT Authentication",
+      "Framer Motion",
+      "TypeScript",
     ],
-    github: "https://github.com/betselotT/Interview-Platform",
-    live: "https://interview-platform-pearl.vercel.app/",
+    github: "https://github.com/betselotT/BookVerse",
+    live: "https://bookverse.betsi.work/",
   },
   {
     title: "E-Commerce App",
     description:
       "A website that users can browse through a list of items they want to purchase.",
     image: "/ecommerce.png",
-    technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    technologies: ["React", "TypeScript", "Tailwind CSS"],
     github: "https://github.com/betselotT/wannabe-ecommerce",
     live: "https://wannabe-ecommerce.vercel.app/",
   },
@@ -46,7 +47,7 @@ const projects = [
     title: "BLU",
     description:
       "A mental health support website that connects therapists with patients.",
-    image: "/blu.png",
+    image: "/blu.jpg",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
     github: "https://github.com/betselotT/BLU",
     live: "https://betselott.github.io/BLU/",
@@ -136,21 +137,35 @@ export default function ProjectsSection() {
                   </div>
                 </CardContent>
                 <CardFooter className="flex justify-between">
-                  <Button
-                    variant="outline"
-                    size="sm"
-                    className="border-blue-700 text-blue-300 hover:bg-blue-800/30"
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex"
                   >
-                    <Github className="mr-2 h-4 w-4" />
-                    Code
-                  </Button>
-                  <Button
-                    size="sm"
-                    className="bg-blue-700 hover:bg-blue-600 text-white"
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="border-blue-700 text-blue-300 hover:bg-blue-800/30 cursor-pointer"
+                    >
+                      <Github className="mr-2 h-4 w-4" />
+                      Code
+                    </Button>
+                  </a>
+                  <a
+                    href={project.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex"
                   >
-                    <ExternalLink className="mr-2 h-4 w-4" />
-                    Live Demo
-                  </Button>
+                    <Button
+                      size="sm"
+                      className="bg-blue-700 hover:bg-blue-600 text-white cursor-pointer"
+                    >
+                      <ExternalLink className="mr-2 h-4 w-4" />
+                      Live Demo
+                    </Button>
+                  </a>
                 </CardFooter>
               </Card>
             </motion.div>
