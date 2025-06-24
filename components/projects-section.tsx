@@ -35,13 +35,20 @@ const projects = [
     live: "https://bookverse.betsi.work/",
   },
   {
-    title: "E-Commerce App",
+    title: "Product Storage",
     description:
-      "A website that users can browse through a list of items they want to purchase.",
-    image: "/ecommerce.png",
-    technologies: ["React", "TypeScript", "Tailwind CSS"],
-    github: "https://github.com/betselotT/wannabe-ecommerce",
-    live: "https://wannabe-ecommerce.vercel.app/",
+      "A responsive full-stack web application for storing and managing products. Users can perform full CRUD operations (Create, Read, Update, Delete) on products, with a clean UI and seamless user experience.",
+    image: "/products.jpg",
+    technologies: [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+    ],
+    github: "https://github.com/betselotT/Products",
+    live: "https://products-tf12.onrender.com/",
   },
   {
     title: "BLU",
