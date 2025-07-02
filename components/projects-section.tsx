@@ -25,6 +25,7 @@ const projects = [
     technologies: [
       "Next.js",
       "Tailwind CSS",
+      "Shadcn UI",
       "Firebase",
       "Google Books API",
       "JWT Authentication",
@@ -43,6 +44,7 @@ const projects = [
       "React",
       "Vite",
       "Tailwind CSS",
+      "Shadcn UI",
       "Node.js",
       "Express.js",
       "MongoDB",
@@ -51,13 +53,55 @@ const projects = [
     live: "https://products-tf12.onrender.com/",
   },
   {
+    title: "My Blog",
+    description:
+      "A responsive single-page blogging platform where users can register, log in, write posts, and comment on others' posts. It includes features like debounced search, form validation, and a light/dark mode toggle.",
+    image: "/blog.png",
+    technologies: [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "Firebase",
+      "Authentication",
+      "TypeScript",
+    ],
+    github: "https://github.com/betselotT/Blog-SPA",
+    live: "https://blog-spa-theta.vercel.app/",
+  },
+  {
+    title: "Task Manager",
+    description:
+      "A web app that helps users organize, track, and manage their daily tasks. Users can create, edit, delete, and mark tasks as complete.",
+    image: "/tick.png",
+    technologies: [
+      "Next.js",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "Firebase",
+      "JWT Authentication",
+      "TypeScript",
+    ],
+    github: "https://github.com/betselotT/Task-Manager",
+    live: "https://task-manager-black-nine.vercel.app/",
+  },
+  {
     title: "BLU",
     description:
       "A mental health support website that connects therapists with patients.",
     image: "/blu.jpg",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
     github: "https://github.com/betselotT/BLU",
-    live: "https://betselott.github.io/BLU/",
+    live: "https://blu-gquf.vercel.app/",
+  },
+  {
+    title: "Ecommerce App",
+    description:
+      "A sleek and responsive user interface for an online shopping platform. It includes core pages like the homepage, product listing, product details, cart, and checkout.",
+    image: "/ecommerce.png",
+    technologies: ["Next.js", "Tailwind CSS", "Shadcn UI", "TypeScript"],
+    github: "https://github.com/betselotT/wannabe-ecommerce",
+    live: "https://wannabe-ecommerce.vercel.app/",
   },
 ];
 
