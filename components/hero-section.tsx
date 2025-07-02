@@ -74,7 +74,7 @@ export default function HeroSection() {
           >
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-2 border-blue-400/30 shadow-[0_0_30px_rgba(56,189,248,0.3)]">
               <Image
-                src="/placeholder.svg?height=320&width=320"
+                src="/meow.png"
                 alt="Betselot Tesfa"
                 fill
                 className="object-cover"
