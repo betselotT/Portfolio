@@ -9,27 +9,38 @@ import { CalendarDays, Building2, MapPin } from "lucide-react";
 
 const experiences = [
   {
+    title: "Front-end Web Developer",
+    company: "Skylink Technologies",
+    location: "Addis Ababa",
+    period: " 07/2025 – Present",
+    responsibilities: [
+      "Build and maintain responsive UI components for an Event Management dashboard, optimized for multiple device types.",
+      "Integrate Swagger-documented API endpoints to enable real-time admin functionality with 24/7 access to event tools.",
+      "Collaborate closely with backend and design teams to ensure seamless user experience and data flow across the platform.",
+    ],
+  },
+  {
+    title: "Software Developer",
+    company: "Endubis Solutions",
+    location: "Addis Ababa",
+    period: "04/2024 - 05/2025",
+    responsibilities: [
+      "Created a wallet app that gives blockchain services, now used in 10+ African countries.",
+      "Integrated RESTful APIs and implemented state management solutions.",
+      "Optimized web applications for maximum speed and scalability.",
+      "Led the integration of version control practices among team members which increased our project delivery speed.",
+    ],
+  },
+  {
     title: "Software Engineering Intern",
     company: "Escalate",
     location: "Addis Ababa",
     period: " 07/2024 – 09/2024",
     responsibilities: [
-      "Designed a responsive landing page and built 5+ front-end pages and features that enhanced user experience",
+      "Designed a responsive landing page and built 5+ front-end pages and features that enhanced user experience.",
       "Integrated API with 10+ endpoints, using RTK Query.",
-      "Reviewed code for quality assurance, ensuring adherence to best practices and high standards",
-      "Collaborated with UX/UI designers to create intuitive user interfaces",
-    ],
-  },
-  {
-    title: "Endubis Wallet App",
-    company: "Endubis Solutions",
-    location: "Addis Ababa",
-    period: "2024 - present",
-    responsibilities: [
-      "Created a wallet app that gives blockchain services, now used in 10+ African countries",
-      "Integrated RESTful APIs and implemented state management solutions",
-      "Optimized web applications for maximum speed and scalability",
-      "Led the integration of version control practices among team members which increased our project delivery speed",
+      "Reviewed code for quality assurance, ensuring adherence to best practices and high standards.",
+      "Collaborated with UX/UI designers to create intuitive user interfaces.",
     ],
   },
 ];

@@ -128,9 +128,7 @@ export default function ContactSection() {
         </div>
 
         <div className="mt-20 text-center">
-          <p className="text-blue-300">
-            © {new Date().getFullYear()} Betselot Tesfa. All rights reserved.
-          </p>
+          <p className="text-blue-300">Made with ❤️ by Betselot Tesfa</p>
         </div>
       </div>
     </section>

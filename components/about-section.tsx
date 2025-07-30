@@ -36,7 +36,7 @@ export default function AboutSection() {
             initial={{ opacity: 0, x: -30 }}
             animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -30 }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="bg-blue-900/30 backdrop-blur-sm p-8 rounded-xl border border-blue-800 shadow-[0_0_15px_rgba(30,64,175,0.3)]"
+            className="bg-blue-900/30 backdrop-blur-sm p-10 rounded-xl border border-blue-800 shadow-[0_0_15px_rgba(30,64,175,0.3)]"
           >
             <h3 className="text-xl font-semibold text-blue-100 mb-4">
               Who I Am

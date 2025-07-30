@@ -4,22 +4,17 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 import {
-  Heading5Icon as Html5,
-  CodepenIcon as Css3,
-  FileJson2,
-  FramerIcon as FramerMotion,
   CodepenIcon as ReactLogo,
-  Figma,
-  Github,
-  GitBranch,
-  Database,
+  FramerIcon as FramerMotion,
+  Database as MongoDB,
 } from "lucide-react";
 
 const skills = [
-  { name: "HTML5", icon: Html5, color: "text-orange-500" },
-  { name: "CSS3", icon: Css3, color: "text-blue-500" },
-  { name: "JavaScript", icon: FileJson2, color: "text-yellow-400" },
-  { name: "React", icon: ReactLogo, color: "text-cyan-400" },
+  {
+    name: "React",
+    icon: ReactLogo,
+    color: "text-cyan-400",
+  },
   {
     name: "Next.js",
     icon: () => (
@@ -59,11 +54,107 @@ const skills = [
     ),
     color: "text-cyan-400",
   },
-  { name: "Framer Motion", icon: FramerMotion, color: "text-purple-400" },
-  { name: "Figma", icon: Figma, color: "text-pink-400" },
-  { name: "Git", icon: GitBranch, color: "text-orange-400" },
-  { name: "GitHub", icon: Github, color: "text-gray-300" },
-  { name: "SQL", icon: Database, color: "text-green-400" },
+  {
+    name: "Firebase",
+    icon: () => (
+      <svg
+        className="w-6 h-6 text-yellow-500"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+      >
+        <path d="M3.89 15.672L6.093 0.367l10.608 10.61-3.839 3.839zM12.066 22.316l3.839-3.838 4.688 3.838H12.066zm9.305-3.838l-5.468-4.688 5.468-5.468z" />
+      </svg>
+    ),
+    color: "text-yellow-500",
+  },
+  {
+    name: "NeonDB",
+    icon: () => (
+      <svg
+        className="w-6 h-6 text-green-500"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+      >
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z" />
+      </svg>
+    ),
+    color: "text-green-500",
+  },
+  {
+    name: "Better Auth",
+    icon: () => (
+      <svg
+        className="w-6 h-6 text-purple-500"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+      >
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4 16h-8v-2h8v2zm0-4h-8v-2h8v2zm0-4h-8V8h8v2z" />
+      </svg>
+    ),
+    color: "text-purple-500",
+  },
+  {
+    name: "MongoDB",
+    icon: MongoDB,
+    color: "text-green-600",
+  },
+  {
+    name: "Framer Motion",
+    icon: FramerMotion,
+    color: "text-purple-400",
+  },
+  {
+    name: "Redux Toolkit",
+    icon: () => (
+      <svg
+        className="w-6 h-6 text-purple-600"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+      >
+        <path d="M16.24 11.51l-2.36-4.32-2.36 4.32H2.24l3.89 7.12 6.11-11.24 6.11 11.24 3.89-7.12h-9.24z" />
+      </svg>
+    ),
+    color: "text-purple-600",
+  },
+  {
+    name: "RTK Query",
+    icon: () => (
+      <svg
+        className="w-6 h-6 text-purple-700"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+      >
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4 16h-8v-2h8v2zm0-4h-8v-2h8v2zm0-4h-8V8h8v2z" />
+      </svg>
+    ),
+    color: "text-purple-700",
+  },
+  {
+    name: "Zustand",
+    icon: () => (
+      <svg
+        className="w-6 h-6 text-blue-500"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+      >
+        <path d="M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.24L19.76 8v8L12 19.76 4.24 16V8L12 4.24z" />
+      </svg>
+    ),
+    color: "text-blue-500",
+  },
+  {
+    name: "Cypress",
+    icon: () => (
+      <svg
+        className="w-6 h-6 text-green-700"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+      >
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z" />
+      </svg>
+    ),
+    color: "text-green-700",
+  },
 ];
 
 export default function SkillsSection() {

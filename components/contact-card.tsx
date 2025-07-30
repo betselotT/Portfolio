@@ -1,10 +1,10 @@
-import React from 'react';
-import { useForm, ValidationError } from '@formspree/react';
-import { Card, CardContent } from '@/components/ui/card';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
-import { Button } from '@/components/ui/button';
-import { Send } from 'lucide-react';
+import React from "react";
+import { useForm, ValidationError } from "@formspree/react";
+import { Card, CardContent } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { Button } from "@/components/ui/button";
+import { Send } from "lucide-react";
 
 export default function ContactCard() {
   const [state, handleSubmit] = useForm("xyzwydnv");
@@ -14,7 +14,9 @@ export default function ContactCard() {
       <Card className="bg-blue-900/30 backdrop-blur-sm border-blue-800 shadow-[0_0_15px_rgba(30,64,175,0.3)]">
         <CardContent className="p-6">
           <h3 className="text-xl font-semibold text-white mb-6">Thank You!</h3>
-          <p className="text-blue-200">Your message has been sent successfully.</p>
+          <p className="text-blue-200">
+            Your message has been sent successfully.
+          </p>
         </CardContent>
       </Card>
     );
@@ -23,7 +25,9 @@ export default function ContactCard() {
   return (
     <Card className="bg-blue-900/30 backdrop-blur-sm border-blue-800 shadow-[0_0_15px_rgba(30,64,175,0.3)]">
       <CardContent className="p-6">
-        <h3 className="text-xl font-semibold text-white mb-6">Send Me a Message</h3>
+        <h3 className="text-xl font-semibold text-white mb-6">
+          Send Me a Message
+        </h3>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
             <label htmlFor="name" className="text-blue-200 block mb-2">
@@ -51,7 +55,11 @@ export default function ContactCard() {
               placeholder="Your email address"
               className="bg-blue-950/50 border-blue-800 text-blue-100 placeholder:text-blue-400/50 focus-visible:ring-cyan-500"
             />
-            <ValidationError prefix="Email" field="email" errors={state.errors} />
+            <ValidationError
+              prefix="Email"
+              field="email"
+              errors={state.errors}
+            />
           </div>
           <div>
             <label htmlFor="message" className="text-blue-200 block mb-2">
@@ -65,7 +73,11 @@ export default function ContactCard() {
               placeholder="Your message"
               className="bg-blue-950/50 border-blue-800 text-blue-100 placeholder:text-blue-400/50 focus-visible:ring-cyan-500"
             />
-            <ValidationError prefix="Message" field="message" errors={state.errors} />
+            <ValidationError
+              prefix="Message"
+              field="message"
+              errors={state.errors}
+            />
           </div>
           <Button
             type="submit"

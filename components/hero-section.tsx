@@ -33,7 +33,7 @@ export default function HeroSection() {
               </span>
             </h1>
             <h2 className="text-2xl md:text-3xl font-medium text-blue-200 mb-6 tracking-wider">
-              Frontend Web Developer
+              Front-end Web Developer
             </h2>
             <p className="text-lg text-blue-100 mb-8 max-w-lg">
               I build responsive, interactive websites using Next.js, React, and
@@ -93,7 +93,7 @@ export default function HeroSection() {
         onClick={scrollToAbout}
       >
         <div className="flex flex-col items-center">
-          <span className="text-blue-300 text-sm mb-2">Scroll Down</span>
+          <span className="text-blue-300 text-sm mb-6">Scroll Down</span>
           <ArrowDown className="text-blue-300 animate-bounce" />
         </div>
       </motion.div>
