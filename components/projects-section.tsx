@@ -70,6 +70,23 @@ const projects = [
     live: "https://blog-spa-theta.vercel.app/",
   },
   {
+    title: "Flashcards",
+    description:
+      "A responsive full-stack web application for creating and managing flashcards. Users can create, edit, delete, and study flashcards, with a clean UI and seamless user experience.",
+    image: "/flashcards.jpg",
+    technologies: [
+      "Next.js",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+    ],
+    github: "https://github.com/betselotT/Flashcards",
+    live: "https://flashcards-frontend-2ap4.onrender.com/",
+  },
+  {
     title: "Task Manager",
     description:
       "A web app that helps users organize, track, and manage their daily tasks. Users can create, edit, delete, and mark tasks as complete.",
@@ -84,15 +101,6 @@ const projects = [
     ],
     github: "https://github.com/betselotT/Task-Manager",
     live: "https://task-manager-black-nine.vercel.app/",
-  },
-  {
-    title: "BLU",
-    description:
-      "A mental health support website that connects therapists with patients.",
-    image: "/blu.jpg",
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
-    github: "https://github.com/betselotT/BLU",
-    live: "https://blu-gquf.vercel.app/",
   },
   {
     title: "Ecommerce App",
