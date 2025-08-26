@@ -55,6 +55,58 @@ const skills = [
     color: "text-cyan-400",
   },
   {
+    name: "PostgreSQL",
+    icon: () => (
+      <svg
+        className="w-6 h-6 text-sky-600"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+      >
+        <path d="M12 0C5.37 0 0 4.924 0 11s5.37 11 12 11 12-4.924 12-11S18.63 0 12 0zm0 20c-4.97 0-9-3.582-9-9s4.03-9 9-9 9 3.582 9 9-4.03 9-9 9z" />
+      </svg>
+    ),
+    color: "text-sky-600",
+  },
+  {
+    name: "Docker",
+    icon: () => (
+      <svg
+        className="w-6 h-6 text-blue-500"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+      >
+        <path d="M4 17h16c-1 2.5-3.5 4-6 4H10c-2.5 0-5-1.5-6-4zM4 13h4v4H4v-4zm5 0h4v4H9v-4zm5 0h4v4h-4v-4zm5 0h2v4h-2v-4zM4 9h4v4H4V9zm5 0h4v4H9V9zm5 0h4v4h-4V9z" />
+      </svg>
+    ),
+    color: "text-blue-500",
+  },
+  {
+    name: "Node.js",
+    icon: () => (
+      <svg
+        className="w-6 h-6 text-green-600"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+      >
+        <path d="M12 .5l10.392 6v11.001l-10.392 6-10.392-6V6.5L12 .5zm0 2.3l-8.196 4.73v9.44L12 21.5l8.196-4.53v-9.44L12 2.8z" />
+      </svg>
+    ),
+    color: "text-green-600",
+  },
+  {
+    name: "Express.js",
+    icon: () => (
+      <svg
+        className="w-6 h-6 text-gray-300"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+      >
+        <path d="M2 3h20v18H2V3zm4 4v10h2V7H6zm4 0v10h2V7h-2zm4 0v10h6V7h-6z" />
+      </svg>
+    ),
+    color: "text-gray-300",
+  },
+  {
     name: "Firebase",
     icon: () => (
       <svg
@@ -98,11 +150,11 @@ const skills = [
     icon: MongoDB,
     color: "text-green-600",
   },
-  {
-    name: "Framer Motion",
-    icon: FramerMotion,
-    color: "text-purple-400",
-  },
+  // {
+  //   name: "Framer Motion",
+  //   icon: FramerMotion,
+  //   color: "text-purple-400",
+  // },
   {
     name: "Redux Toolkit",
     icon: () => (
@@ -116,19 +168,19 @@ const skills = [
     ),
     color: "text-purple-600",
   },
-  {
-    name: "RTK Query",
-    icon: () => (
-      <svg
-        className="w-6 h-6 text-purple-700"
-        viewBox="0 0 24 24"
-        fill="currentColor"
-      >
-        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4 16h-8v-2h8v2zm0-4h-8v-2h8v2zm0-4h-8V8h8v2z" />
-      </svg>
-    ),
-    color: "text-purple-700",
-  },
+  // {
+  //   name: "RTK Query",
+  //   icon: () => (
+  //     <svg
+  //       className="w-6 h-6 text-purple-700"
+  //       viewBox="0 0 24 24"
+  //       fill="currentColor"
+  //     >
+  //       <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4 16h-8v-2h8v2zm0-4h-8v-2h8v2zm0-4h-8V8h8v2z" />
+  //     </svg>
+  //   ),
+  //   color: "text-purple-700",
+  // },
   {
     name: "Zustand",
     icon: () => (

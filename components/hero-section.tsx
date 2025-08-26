@@ -33,7 +33,7 @@ export default function HeroSection() {
               </span>
             </h1>
             <h2 className="text-2xl md:text-3xl font-medium text-blue-200 mb-6 tracking-wider">
-              Front-end Web Developer
+              Full-Stack Developer
             </h2>
             <p className="text-lg text-blue-100 mb-8 max-w-lg">
               I build responsive, interactive websites using Next.js, React, and
